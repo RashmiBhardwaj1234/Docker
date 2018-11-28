@@ -41,4 +41,12 @@
  </plugins>
     <finalName>Calculator_dev</finalName>
   </build>
+  <distributionManagement>
+      
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://35.237.144.10:8081/nexus/content/repositories/123/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
